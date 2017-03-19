@@ -1,6 +1,6 @@
 # MazeMaker
 <h3>
-The end goal of this program is to use a depth first search algorithm to generate a ranom maze of any size. <br>
+The end goal of this program is to use a <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm">depth first search algorithm</a> to generate a ranom maze of any size. <br>
 </h3>
 
 <img src="https://github.com/League-level5/MazeMaker/blob/master/maze.png?raw=true"> <br>
@@ -11,6 +11,13 @@ The result of running the program currently gives us only a grid. <br>
 <img src="https://github.com/League-level5/MazeMaker/blob/master/maze_incomplete.png?raw=true"> <br><br>
 
 <h4>
-In the MazeMaker class. complete the generateMaze method, selectNextPath method, the rmoveWalls method, and the getUnvisitedNeighbors method to generate a random maze.
+In the MazeMaker class. complete the generateMaze method, selectNextPath method, the rmoveWalls method, and the getUnvisitedNeighbors method to generate a random maze. <br><br>
 </h4>
+
+<h5>
+getUnvisitedNeighbors takes in a cell. It returns all the neighbors of the cell who have NOT yet been visited as an ArrayList.<br><br>
+removeWalls takes in two cells. It then figures out the relationship between the two cells and sets their shared walls to false. For example, If cell1 is directly above cell2, the removeWalls will set cell1's south wall to false and set cell2's north wall to false. <br><br>
+selectNextPath is a recursive method that uses the depth first search alogorithm to determine which walls to remove.<br><br>
+generateMaze will create a maze with the given dimensions, select a cell at random, and call the selectNextPath method using that random cell.
+</h5>
 
