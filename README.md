@@ -1,6 +1,6 @@
 # MazeMaker
 <h3>
-The end goal of this program is to use a <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm">depth first search algorithm</a> to generate a ranom maze of any size. <br>
+The end goal of this program is to use a <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm">depth first search algorithm</a> to generate a random maze of any size. <br>
 </h3>
 
 <img src="https://github.com/League-level5/MazeMaker/blob/master/maze.png?raw=true" width="300" height="300"> <br>
