@@ -3,12 +3,12 @@
 The end goal of this program is to use a <a href="https://en.wikipedia.org/wiki/Maze_generation_algorithm">depth first search algorithm</a> to generate a ranom maze of any size. <br>
 </h3>
 
-<img src="https://github.com/League-level5/MazeMaker/blob/master/maze.png?raw=true" style="width:200px;height:200px"> <br>
+<img src="https://github.com/League-level5/MazeMaker/blob/master/maze.png?raw=true" style="width:200px;height:200px;"> <br>
 
 <h3>
 The result of running the program currently gives us only a grid. <br>
 </h3>
-<img src="https://github.com/League-level5/MazeMaker/blob/master/maze_incomplete.png?raw=true" style="width:200px;height:200px"> <br><br>
+<img src="https://github.com/League-level5/MazeMaker/blob/master/maze_incomplete.png?raw=true" style="width:200px;height:200px;"> <br><br>
 
 <h4>
 In the MazeMaker class. complete the generateMaze method, selectNextPath method, the removeWalls method, and the getUnvisitedNeighbors method to generate a random maze. <br><br>
