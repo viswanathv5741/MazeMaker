@@ -11,7 +11,7 @@ The result of running the program currently gives us only a grid. <br>
 <img src="https://github.com/League-level5/MazeMaker/blob/master/maze_incomplete.png?raw=true" width="300" height="300"> <br><br>
 
 <h4>
-In the MazeMaker class. complete the generateMaze method, selectNextPath method, the removeWalls method, and the getUnvisitedNeighbors method to generate a random maze. <br><br>
+In the MazeMaker class, complete the generateMaze method, selectNextPath method, the removeWalls method, and the getUnvisitedNeighbors method to generate a random maze. <br><br>
 </h4>
 
 <h5>
